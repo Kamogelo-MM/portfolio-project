@@ -1,3 +1,26 @@
-h1{
-    text-align: center;
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --color: #fff;
+     font-family: 'Playfair Display', serif;
+}
+body{
+    font-family: var(--font-family);
+    background: black;
+}
+ul{
+    list-style: none;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #162417;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
 }
